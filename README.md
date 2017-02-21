@@ -28,3 +28,8 @@ All data on this device will be lost!
 Do you want to continue? (y/N):
 ...
 ```
+
+## Links
+
+ * [ArchLinux ARM - CuBox-i page](https://archlinuxarm.org/platforms/armv7/freescale/cubox-i)
+ * [How to install latest Kernel on Cubox-i & Hummingboard](http://forum.solid-run.com/viewtopic.php?p=8655#p8655)
