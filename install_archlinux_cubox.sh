@@ -41,7 +41,11 @@ echo "Preparing device..."
 umount /dev/${device}1
 dd if=/dev/zero of=/dev/${device} bs=1M count=4
 
-echo "Type 'n', and press ENTER, accepting default values. Type 'w' to write changes and exit."
+echo
+echo
+echo "Manually perform following steps:"
+echo "  1. Type 'n', and press ENTER, accepting default values."
+echo "  2. Type 'w' to write changes and exit."
 fdisk /dev/${device}
 mkfs.ext4 /dev/${device}1
 mkdir -p root
