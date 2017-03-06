@@ -54,7 +54,7 @@ bsdtar -xpf ${image} -C root
 
 echo "Installing U-Boot bootloader..."
 dd if=root/boot/SPL of=/dev/${device} bs=1K seek=1
-dd if=root/boot/u-boot.img of=/dev/${device} bs=1K seek=42
+dd if=root/boot/u-boot.img of=/dev/${device} bs=1K seek=69
 
 echo "Syncing..."
 sync
